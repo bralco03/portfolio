@@ -10,12 +10,14 @@
     border: none;
 }
 header{
+    width: 100%;
+    height: 80px;
     background-color: #87bdd8;
-    display: flex;
+    display: block;
 }
-header ul li{ 
-    margin: 15px;
-    display: inline;
-    justify-content: stretch;
+.inner-header{
+    height: 100%;
+    display: table;
 }
+
 
