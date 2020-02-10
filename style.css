@@ -65,4 +65,53 @@ header{
     display: table-cell;
     vertical-align: middle;
 }
-
+/*Skills tab-------------------------------------------------*/
+.skills{
+    width: 50%;
+    height: 500px;
+    background-image: url(photos/skills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+.skills-square{
+    background: rgba(0, 0, 0, 0.85);
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+}
+.skills-square h2{
+    color: #c5ebff;
+    text-align: center;
+    padding-top: 5px;
+    letter-spacing: 4px;
+    font-weight: 200;
+}
+.skills-square ul{
+    color: white;
+}
+.skills-square li{
+    padding: 25px;
+}
+.skills2{
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: #cfe0e8;
+    display: table;
+}
+.skills2 h2{
+    letter-spacing: 3px;
+    padding-top: 10px;
+    text-align: center;
+}
+.skills2 p{
+    font-size: 19px;
+    padding: 20px 15px 20px 0px;
+    line-height: 35px;
+    vertical-align: middle;
+    display: table-cell;
+}
