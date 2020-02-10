@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto&display=swap');
+*{
+    font-family: 'roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.main-content{
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
+header{
+    background-color: #87bdd8;
+    display: flex;
+}
+header ul li{ 
+    margin: 15px;
+    display: inline;
+    justify-content: stretch;
+}
+
