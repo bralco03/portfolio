@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 *{
     font-family: 'roboto', sans-serif;
     list-style: none;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: inherit;
+}
+a:hover{
+    color: #cfe0e8;
 }
 .main-content{
     margin: 0 auto;
@@ -16,8 +25,44 @@ header{
     display: block;
 }
 .inner-header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    /* background-color: crimson;  */
+}
+.logo{
     height: 100%;
     display: table;
+    float: left;
 }
-
+.logo h4{
+    color: black;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 22px;
+    font-weight: 200;
+}
+.logo span{
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+}
+.navigation {
+    float: right;
+    height: 100%;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.navigation a:last-child{
+    padding-right: 0;
+}
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+}
 
