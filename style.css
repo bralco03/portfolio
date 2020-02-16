@@ -164,10 +164,40 @@ footer{
     padding: 20px;
 }
 .contact{
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.75);
     width: 75%;
     margin: 0 auto;
-    height: 400px;
+    height: 480px;
     border-radius: 15px;
     text-align: center;
+}
+.contact h1{
+    color: #fff;
+    font-weight: 200;
+    padding-top: 20px;
+}
+.inputs{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.buttons{
+    background: #d9ad7c;
+    border-color: transparent;
+    width: 600px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+.buttons:hover{
+    font-weight: 500;
+    background: #8b6d4a;
+    cursor: pointer;
 }
