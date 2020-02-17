@@ -1,12 +1,12 @@
 const Form = document.querySelector('#form1');
+const formName = document.querySelector('#name');
+const formEmail = document.querySelector('#email');
+const formMessage = document.querySelector('#message');
+const formSub = document.querySelector('#sub');
 
 Form.addEventListener('submit', e => {
-    onbeforeunload = function() {
-        return false;
-    };
-    setInterval(function() {
-        alert("Your mail has been sent!");
-        
-    }, 2000);
-    
+    setInterval(function(){
+        document.getElementById("form1").reset();
+        formSub.value = "MESSAGE SENT";
+    }, 3000);
 });
