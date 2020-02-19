@@ -178,8 +178,9 @@ header{
 /*Projects section------------------------*/
 .projects{
     width: 100%;
-    height: 450px;
-    background-image:linear-gradient(-90deg, #eebd85, #7c5a33);;
+    height: 650px;
+    background-image: url(photos/projectB.jpg);
+    background-repeat: no-repeat;
     display: grid;
 }
 .projects h1{
@@ -187,10 +188,58 @@ header{
     font-weight: 300;
 }
 .project-container{
-    background: rgba(0, 0, 0, 1);
+    background-color: rgba(2, 2, 2, .75);
+    border-radius: 10px;
     margin: 0 auto;
     width: 80%;
-    height: 350px;   
+    height: 500px;
+    position: relative;
+}
+.card1{
+    position:relative;
+    width: 250px;
+    height: 450px;
+    background-image: linear-gradient(90deg, #d9ad7c, #805b31);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.80);
+    transition: 0.3s;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card1-content i{
+    padding-bottom: 5px;
+}
+.card1 a:hover{
+    color: black;
+}
+
+.card1:hover{
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,1);
+}
+.card1 h4{
+    padding: 15px;
+    text-align: center;
+}
+.card1 p{
+    padding: 7px;
+}
+.img-cont{
+    display: flex;
+    justify-content: center;
+}
+.card1 img{
+    height: 300px;
+    padding: 0;
+    clip-path: circle(45%);
+    padding: 5px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.card1 a{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 /*------------------/footer*/
