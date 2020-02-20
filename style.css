@@ -293,12 +293,12 @@ footer{
 }
 
 /*----------------------Responsive---------------------*/
-@media screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){
     .navigation{
         width: 60%;
     }
 }
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
     body{
         overflow-x: hidden;
     }
@@ -330,7 +330,7 @@ footer{
     }
 
 }
-@media screen and (max-width: 414px){
+@media only screen and (max-width: 414px){
     body{
         overflow-x: hidden;
     }
@@ -376,7 +376,7 @@ footer{
           font-size: 16px;
       }
 }
-@media screen and (max-width: 320px){
+@media only screen and (max-width: 320px){
     .skills-square{
       width: 100%; 
     }
@@ -397,7 +397,7 @@ footer{
     }
 
 }
-@media screen and (max-width: 375px){
+@media only screen and (max-width: 375px){
    .welcome i{
        padding-bottom: 20px;
    }
