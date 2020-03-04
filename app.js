@@ -10,7 +10,7 @@ Form.addEventListener('submit', e => {
     setInterval(function(){
         document.getElementById("form1").reset();
         submitSuccess.innerText= "Message Sent"
-    }, 3000);
+    }, 5000);
 });
 const navSlide = () => {
     const burguer = document.querySelector('.hamburguer');
