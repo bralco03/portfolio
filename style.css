@@ -363,25 +363,39 @@ footer{
     .skills{
         display: block;
         width: 100%;
-      }
-      .skills2{
+    }
+    .skills2{
         width: 100%;
         
-      }
-      .skills-square{
+    }
+    .skills-square{
           background: rgba(0, 0, 0, 0.85);
           width: 380px;
           height: 450px;
           border-radius: 15px;
           margin: 0 auto;
-      }
-      .inputs{
+    }
+    .inputs{
           width: 200px;
-      }
-      .buttons{
+    }
+    .buttons{
           width: 200px;
           font-size: 16px;
-      }
+    }
+    .projects{
+        height: 180vh;
+        
+    }
+    .projects h1{
+        height: 100px;
+    }
+    .project-container{
+        display: grid;
+        padding: 0; 
+        position: static;   
+        height: 1000px; 
+        
+    }
 }
 @media only screen and (max-width: 320px){
     .skills-square{
@@ -402,6 +416,20 @@ footer{
     .skills2{
         font-size: 18px;
     }
+    .projects{
+        height: 180vh;
+        
+    }
+    .projects h1{
+        height: 100px;
+    }
+    .project-container{
+        display: grid;
+        padding: 0; 
+        position: static;   
+        height: 1000px; 
+        
+    }
 
 }
 @media only screen and (max-width: 375px){
@@ -411,6 +439,20 @@ footer{
    .skills-square{
        width: 100%
    }
+   .projects{
+    height: 180vh;
+    
+}
+.projects h1{
+    height: 100px;
+}
+.project-container{
+    display: grid;
+    padding: 0; 
+    position: static;   
+    height: 1000px; 
+    
+}
 }
 
 .nav-active{
@@ -434,4 +476,22 @@ footer{
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media only screen and (max-width: 670px){
+    .projects{
+        height: 180vh;
+        
+    }
+    .projects h1{
+        height: 100px;
+    }
+    .project-container{
+        display: grid;
+        padding: 0; 
+        position: static;   
+        height: 1000px; 
+        
+    }
+
 }
